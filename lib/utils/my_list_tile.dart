@@ -29,7 +29,7 @@ class MyListTile extends StatelessWidget {
                 height: 70,
                 child: Image.asset(iconImagePath),
               ),
-              SizedBox(
+              const SizedBox(
                 width: 20,
               ),
               Column(
@@ -38,10 +38,11 @@ class MyListTile extends StatelessWidget {
                 children: [
                   Text(
                     tileTitle,
-                    style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18),
+                    style: const TextStyle(
+                        fontWeight: FontWeight.bold, fontSize: 18),
                   ),
-                  SizedBox(
-                    height: 5,
+                  const SizedBox(
+                    height: 5.0,
                   ),
                   Text(
                     tileSubTitle,

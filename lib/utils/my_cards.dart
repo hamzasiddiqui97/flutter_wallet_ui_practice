@@ -50,7 +50,10 @@ class MyCard extends StatelessWidget {
             ),
             Text(
               '\$$balance',
-              style: TextStyle(color: Colors.white, fontSize: 30),
+              style: TextStyle(
+                  color: Colors.white,
+                  fontSize: 32,
+                  fontWeight: FontWeight.bold),
             ),
             const SizedBox(
               height: 30.0,
